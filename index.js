@@ -147,7 +147,7 @@ function moveDodgerRight() {
    */
   document.addEventListener('keydown', function(e) {
     console.log(e.which)
-    if (e.which === 38) {
+    if (e.which === 39) {
       var rightNumbers = DODGER.style.right.replace('px', '')
       var right = parseInt(rightNumbers, 10)
 
