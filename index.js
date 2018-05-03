@@ -146,7 +146,7 @@ function moveDodgerRight() {
    * (mabye 4 pixels?). Use window.requestAnimationFrame()!
    */
   document.addEventListener('keydown', function(e) {
-    loger(e.which)
+    console.log(e.which)
     if (e.which === 38) {
       var rightNumbers = DODGER.style.right.replace('px', '')
       var right = parseInt(rightNumbers, 10)
