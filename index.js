@@ -78,6 +78,7 @@ function createRock(x) {
    * This function moves the rock. (2 pixels at a time
    * seems like a good pace.)
    */
+  console.log("moving")
   function moveRock() {
     console.log("moving")
     // implement me!
