@@ -139,12 +139,12 @@ function moveDodgerLeft() {
   console.log(left)
   //if (left > 0) {
     var moveTo = left - 4
-    // function step() {
+    function step() {
     //   DODGER.style.left = `${left - 1}px`
     //   if (left < moveTo && > 0) {
     //     window.requestAnimationFrame(step)
     //   }
-    // }
+    }
     // window.requestAnimationFrame(step)
   //}
 }
