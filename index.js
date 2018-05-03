@@ -149,7 +149,7 @@ function moveDodgerRight() {
   document.addEventListener('keydown', function(e) {
     if (e.which === RIGHT_ARROW) {
       var left = positionToInteger(DODGER.style.left)
-      var right = GAME_WIDTH - DODGER.style.width - left
+      var right = GAME_WIDTH - left + DODGER.style.width
       console.log(right)
       if (right > 0) {
         DODGER.style.left = `${left + 4}px`
