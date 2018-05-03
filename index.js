@@ -110,7 +110,7 @@ function createRock(x) {
 function endGame() {
 }
 
-function moveDodger(e) {
+document.addEventListener('keydown', function moveDodger(e) {
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
@@ -119,6 +119,12 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
+  if (e.which === LEFT_ARROW) {
+    console.log("LEFT")
+  }
+  if (e.which === RIGHT_ARROW) {
+    console.log("RIGHT")
+  }
 }
 
 function moveDodgerLeft() {
