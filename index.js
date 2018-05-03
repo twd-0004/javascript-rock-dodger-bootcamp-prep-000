@@ -110,7 +110,7 @@ function createRock(x) {
 function endGame() {
 }
 
-document.addEventListener('keydown', function moveDodger(e) {
+function moveDodger(e) {
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
