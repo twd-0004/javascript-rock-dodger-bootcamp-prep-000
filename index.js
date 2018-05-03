@@ -110,7 +110,7 @@ function createRock(x) {
 function endGame() {
 }
 
-function() {
+function init() {
   document.addEventListener('keydown', function moveDodger(e) {
     if (e.which === LEFT_ARROW) {
       moveDodgerLeft();
