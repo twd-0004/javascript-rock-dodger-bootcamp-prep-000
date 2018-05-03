@@ -150,7 +150,7 @@ function moveDodgerRight() {
     if (e.which === 39) {
       var rightNumbers = DODGER.style.right.replace('px', '')
       var right = parseInt(rightNumbers, 10)
-      console.log(righNumbers)
+      console.log(rightNumbers)
       console.log(right)
       if (right > 0) {
         DODGER.style.right = `${right - 4}px`
