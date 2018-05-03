@@ -135,18 +135,18 @@ function moveDodgerLeft() {
    */
   var leftNumbers = DODGER.style.left.replace('px', '')
   var left = parseInt(leftNumbers, 10)
-  //if (left > 0) {
+  if (left > 0) {
     var moveTo = left - 4
     function step() {
       DODGER.style.left = `${left -= 1}px`
       console.log(DODGER.style.left)
-      if (left > moveTo && left > 0) {
+      if (left > moveTo) {
         console.log("THIS")
         window.requestAnimationFrame(step)
       }
     }
     window.requestAnimationFrame(step)
-  //}
+  }
 }
 
 function moveDodgerRight() {
