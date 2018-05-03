@@ -148,16 +148,12 @@ function moveDodgerRight() {
    * This function should move DODGER to the right
    * (mabye 4 pixels?). Use window.requestAnimationFrame()!
    */
-  document.addEventListener('keydown', function(e) {
-    if (e.which === RIGHT_ARROW) {
-      var left = positionToInteger(DODGER.style.left)
-      var right = GAME_WIDTH - left - 40;
-      console.log(right)
-      if (right > 0) {
-        DODGER.style.left = `${left + 4}px`
-      }
-    }
-  })
+  var left = positionToInteger(DODGER.style.left)
+  var right = GAME_WIDTH - left - 40;
+  console.log(right)
+  if (right > 0) {
+    DODGER.style.left = `${left + 4}px`
+  }
 }
 
 /**
