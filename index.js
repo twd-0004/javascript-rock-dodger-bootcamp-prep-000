@@ -138,7 +138,7 @@ function moveDodgerLeft() {
   //if (left > 0) {
     var moveTo = left - 4
     function step() {
-      console.log(left)
+      console.log("left="+left)
       DODGER.style.left = `${left - 1}px`
       console.log(DODGER.style.left)
       if (left > moveTo && left > 0) {
