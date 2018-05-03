@@ -138,14 +138,14 @@ function moveDodgerLeft() {
   console.log(leftNumbers)
   console.log(left)
   //if (left > 0) {
-    var moveTo = left - 4
-    function step() {
-      DODGER.style.left = `${left - 1}px`
-      if (left < moveTo && > 0) {
-        window.requestAnimationFrame(step)
-      }
-    }
-    window.requestAnimationFrame(step)
+    // var moveTo = left - 4
+    // function step() {
+    //   DODGER.style.left = `${left - 1}px`
+    //   if (left < moveTo && > 0) {
+    //     window.requestAnimationFrame(step)
+    //   }
+    // }
+    // window.requestAnimationFrame(step)
   //}
 }
 
