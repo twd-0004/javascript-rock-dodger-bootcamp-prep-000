@@ -135,6 +135,8 @@ function moveDodgerLeft() {
    */
   var leftNumbers = DODGER.style.left.replace('px', '')
   var left = parseInt(leftNumbers, 10)
+  console.log(leftNumbers)
+  console.log(left)
   //if (left > 0) {
     var moveTo = left - 4
     function step() {
