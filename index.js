@@ -157,6 +157,7 @@ function moveDodgerRight() {
   var right = GAME_WIDTH - left - 40;
   if (right > 0) {
     var moveTo = right - 4;
+    console.log(right, moveTo)
     function step() {
       DODGER.style.left = `${left += 1}px`
       if (right < moveTo) {
